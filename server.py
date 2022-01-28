@@ -9,7 +9,7 @@ def soo():
     from datetime import datetime
     logging.basicConfig( filename='logfile.log', filemode='a' )
 # server's IP address
-    SERVER_HOST = "127.0.0.1"
+    SERVER_HOST = "40.71.59.213"
     SERVER_PORT = 5002 # port we want to use
     separator_token = "<SEP>" # we will use this to separate the client name & message
 
